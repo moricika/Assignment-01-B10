@@ -29,6 +29,18 @@ body{
     text-align: center;
 }
 
+#contact {
+    width: 208px;
+    height: 66px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 60px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+
+}
+
 /* shared style */
 
 h1 {
@@ -77,6 +89,17 @@ p {
     margin-top: 75px;
     padding: 80px 97px 80px 97px;
 
+
+}
+
+#learn-more {
+    width: 171px;
+    height: 47px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
 
 }
 
@@ -158,6 +181,13 @@ p {
     justify-content: space-between;
 }
 
+.course-container a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 #html-content {
     width: 275px;
     height: 234px;
@@ -194,7 +224,7 @@ p {
     padding: 25px;
 }
 
-/* current target style starts ends*/
+/* current target style  ends*/
 
 
 
@@ -263,27 +293,45 @@ p {
     font-weight: 400;
 }
 
-#btn {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 10px 15px 10px 15px;
-    color: rgb(13, 19, 33);
-    border-radius: 10px;
-}
-
 #feedback {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    gap: 20px;
 }
 
+#text {
+    width: 548px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+}
 
+#btn {
+    width: 120px;
+    height: 57px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+}
 
 /* footer style */
 
-footer{
+footer {
     width: 1440px;
     height: 100px;
     border-radius: 16px;
@@ -291,15 +339,15 @@ footer{
     margin-top: 120px;
     background: rgba(13, 19, 33, 0.03);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 15px 70px;
+    padding: 15px 100px;
 }
 
 h5 {
-    
+
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
-    
+
 }
