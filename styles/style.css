@@ -107,4 +107,34 @@ p {
     border: 2px solid blue;
     margin: 0 auto;
     margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#youtube {
+    width: 1076px;
+    height: 550px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 40px;
+
+}
+
+/* current target style */
+
+.current-target {
+    width: 1140px;
+    height: 460px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+
+.current-target-info{
+    text-align: center;
+    padding: 0 144px;
 }
