@@ -195,4 +195,44 @@ p {
     width: 1140px;
     height: 866px;
     border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 111px;
+}
+
+.next-target-info {
+    text-align: center;
+    padding: 0 144px;
+}
+
+.reactjs-content {
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    width: 941.22px;
+    height: 139px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/* support section style */
+
+.support {
+    width: 1140px;
+    height: 313px;
+    border: 1px solid blueviolet;
+    margin: 0 auto;
+    margin-top: 45px;
 }
