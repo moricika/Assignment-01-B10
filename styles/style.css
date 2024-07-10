@@ -1,10 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
-body{
-    font-family: "Azeret Mono", monospace;
-} */
-
-
+/* fonts */
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -29,15 +23,18 @@ body{
     text-align: center;
 }
 
-#contact {
-    width: 208px;
-    height: 66px;
+
+.linking-btn {
+    width: 150px;
+    height: 46px;
     font-size: 20px;
     font-weight: 600;
-    margin-top: 60px;
+    margin-top: 20px;
+    padding: 10px 15px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
+    text-decoration: none;
 
 }
 
@@ -82,7 +79,7 @@ p {
 
 .why-choose-web-container {
     width: 1140px;
-    height: 1395px;
+    height: 1250px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin: 0 auto;
@@ -116,16 +113,19 @@ p {
 .why-choose-web-part01 {
     display: flex;
     justify-content: space-between;
+    margin-top: 90px;
 }
 
 .why-choose-web-part02 {
     display: flex;
     justify-content: space-between;
+    margin-top: 90px;
 }
 
 .why-choose-web-part03 {
     display: flex;
     justify-content: space-between;
+    margin-top: 90px;
 }
 
 /* why-choose-web-container style ends */
@@ -227,45 +227,6 @@ p {
 /* current target style  ends*/
 
 
-
-/* next target style */
-
-.next-target-container {
-    width: 1140px;
-    height: 866px;
-    border: 2px solid red;
-    margin: 0 auto;
-    margin-top: 111px;
-}
-
-.next-target-info {
-    text-align: center;
-    padding: 0 144px;
-}
-
-.reactjs-content {
-    display: flex;
-    /* flex-direction: row;
-    justify-content: space-between; */
-    width: 941.22px;
-    height: 139px;
-    border: 1px solid blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 40px;
-}
-
-
-
-
-
-
-
-
-
-
 /* support section style */
 
 .support {
@@ -345,7 +306,6 @@ footer {
 }
 
 h5 {
-
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
