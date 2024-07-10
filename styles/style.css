@@ -12,7 +12,7 @@ body{
     font-style: normal;
 }
 
-/* banner-styling */
+/* banner-styling starts*/
 
 .resume {
     display: flex;
@@ -66,12 +66,11 @@ p {
     font-weight: 400;
 }
 
-/* why-choose-web-container style */
+/* why-choose-web-container style starts */
 
 .why-choose-web-container {
     width: 1140px;
     height: 1395px;
-    border: 2px solid red;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin: 0 auto;
@@ -106,12 +105,16 @@ p {
     justify-content: space-between;
 }
 
-/* my inspiration style */
+/* why-choose-web-container style ends */
+
+
+
+
+/* my inspiration style starts */
 
 .my-inspiration-part {
     width: 1140px;
     height: 775px;
-    border: 2px solid blue;
     margin: 0 auto;
     margin-top: 88px;
     display: flex;
@@ -131,12 +134,15 @@ p {
 
 }
 
-/* current target style */
+/* my inspiration style starts ends */
+
+
+
+/* current target style starts*/
 
 .current-target {
     width: 1140px;
     height: 460px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 151px;
 }
@@ -188,6 +194,9 @@ p {
     padding: 25px;
 }
 
+/* current target style starts ends*/
+
+
 
 /* next target style */
 
@@ -232,7 +241,65 @@ p {
 .support {
     width: 1140px;
     height: 313px;
-    border: 1px solid blueviolet;
     margin: 0 auto;
     margin-top: 45px;
+    border-radius: 16px;
+    padding: 10px;
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);
+    background: rgba(1, 2, 3, 1), rgba(5, 6, 8, 1), rgba(3, 9, 5, 13), url(Email);
+    background-position: center;
+}
+
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-paragraph {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#btn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    color: rgb(13, 19, 33);
+    border-radius: 10px;
+}
+
+#feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+
+/* footer style */
+
+footer{
+    width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+}
+
+h5 {
+    
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    
 }
